@@ -1,0 +1,39 @@
+.twiter{
+    color:rgb(25, 130, 235);
+    background-color: white;
+    border-color: rgb(25, 130, 235);
+    height:35px;
+    width:70px;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+.twiter:hover{
+    background-color: rgb(25, 130, 235);
+    color: white;
+}
+.twiter:active{
+    opacity: 0.5
+}
+.tweet{
+    color:white;
+    background-color: #1d9bf0;;
+    border-width: 0px;
+    border-radius: 20px;
+    height: 38px;
+    width: 80px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    transition: box-shadow 1s;
+    
+}
+.tweet:hover{
+    box-shadow: 2px  3px 10px grey;
+}
+.tweet:active{
+    opacity: 0.5;
+}
